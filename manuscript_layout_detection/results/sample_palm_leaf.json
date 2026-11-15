@@ -1,0 +1,46 @@
+{
+  "image": "sample_palm_leaf.png",
+  "width": 2048,
+  "height": 834,
+  "page_box": [
+    143,
+    83,
+    1778,
+    698
+  ],
+  "regions": [
+    {
+      "label": "filler",
+      "bbox": [
+        577,
+        26,
+        1469,
+        56
+      ],
+      "confidence": 0.9,
+      "reason": "text lying outside the page (caption / stamp)"
+    },
+    {
+      "label": "main_text",
+      "bbox": [
+        278,
+        93,
+        1763,
+        673
+      ],
+      "confidence": 0.99,
+      "reason": "one of the biggest blocks of writing on the page"
+    },
+    {
+      "label": "filler",
+      "bbox": [
+        548,
+        782,
+        1498,
+        813
+      ],
+      "confidence": 0.9,
+      "reason": "text lying outside the page (caption / stamp)"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "image": "sample_paper.png",
+  "width": 2047,
+  "height": 774,
+  "page_box": [
+    0,
+    0,
+    2046,
+    773
+  ],
+  "regions": [
+    {
+      "label": "filler",
+      "bbox": [
+        1968,
+        0,
+        1997,
+        773
+      ],
+      "confidence": 0.7,
+      "reason": "long straight border / ruling line"
+    },
+    {
+      "label": "filler",
+      "bbox": [
+        212,
+        1,
+        247,
+        773
+      ],
+      "confidence": 0.7,
+      "reason": "long straight border / ruling line"
+    },
+    {
+      "label": "filler",
+      "bbox": [
+        590,
+        26,
+        1457,
+        55
+      ],
+      "confidence": 0.85,
+      "reason": "small centred text in the top/bottom strip (looks like English stamp text)"
+    },
+    {
+      "label": "main_text",
+      "bbox": [
+        244,
+        91,
+        2046,
+        719
+      ],
+      "confidence": 0.99,
+      "reason": "one of the biggest blocks of writing on the page"
+    },
+    {
+      "label": "filler",
+      "bbox": [
+        560,
+        724,
+        1485,
+        754
+      ],
+      "confidence": 0.85,
+      "reason": "small centred text in the top/bottom strip (looks like English stamp text)"
+    }
+  ]
+}

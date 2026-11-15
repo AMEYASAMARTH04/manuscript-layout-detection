@@ -1,0 +1,112 @@
+{
+  "image": "synthetic_demo_page.png",
+  "width": 2150,
+  "height": 1000,
+  "page_box": [
+    0,
+    0,
+    2149,
+    998
+  ],
+  "regions": [
+    {
+      "label": "header",
+      "bbox": [
+        863,
+        97,
+        1231,
+        130
+      ],
+      "confidence": 0.839,
+      "reason": "sits above the main text with a gap"
+    },
+    {
+      "label": "main_text",
+      "bbox": [
+        230,
+        200,
+        1932,
+        798
+      ],
+      "confidence": 0.99,
+      "reason": "one of the biggest blocks of writing on the page"
+    },
+    {
+      "label": "side_text",
+      "bbox": [
+        22,
+        309,
+        83,
+        331
+      ],
+      "confidence": 0.95,
+      "reason": "sits in the left/right margin next to the main text"
+    },
+    {
+      "label": "side_text",
+      "bbox": [
+        22,
+        370,
+        116,
+        395
+      ],
+      "confidence": 0.95,
+      "reason": "sits in the left/right margin next to the main text"
+    },
+    {
+      "label": "side_text",
+      "bbox": [
+        22,
+        429,
+        101,
+        450
+      ],
+      "confidence": 0.95,
+      "reason": "sits in the left/right margin next to the main text"
+    },
+    {
+      "label": "side_text",
+      "bbox": [
+        1991,
+        429,
+        2053,
+        450
+      ],
+      "confidence": 0.803,
+      "reason": "sits in the left/right margin next to the main text"
+    },
+    {
+      "label": "side_text",
+      "bbox": [
+        1991,
+        489,
+        2072,
+        511
+      ],
+      "confidence": 0.803,
+      "reason": "sits in the left/right margin next to the main text"
+    },
+    {
+      "label": "footer",
+      "bbox": [
+        232,
+        851,
+        281,
+        880
+      ],
+      "confidence": 0.78,
+      "reason": "sits below the main text with a gap"
+    },
+    {
+      "label": "footer",
+      "bbox": [
+        1602,
+        859,
+        1782,
+        888
+      ],
+      "confidence": 0.807,
+      "reason": "sits below the main text with a gap"
+    }
+  ]
+}
